@@ -34,6 +34,16 @@ console.log(heros);
 console.log(my_obj);
 console.log ( typeof outsideTemp);
 
+// memory in js
+//two types : 1 stack(use by primitive ) 2 Heap(use by non primitive)
+
+let user1={
+    name:"hello" , 
+     age:21
+}
+let user2=user1
+user1.name="jatin";
+console.log(user1);
 
 
 
