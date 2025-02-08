@@ -17,20 +17,48 @@ console.log(big_no);
 let aa=""
 let bb=Boolean(aa)
 console.log(bb);
+//********operation*******
+
+// let val=3
+// let nval=-val
+// console.log(nval);
+
+// let str1="jatin "
+// let str2="kishor"
+// let str3=str1+str2;
+// console.log(str3);
+// console.log("1" + 2);//=12
+// console.log("1" + 2 + 2);//=122
+// console.log(1+2+"2");
+
+console.log(true);
+//*****comparision  */
 
 
-//array , object , function
-const heros=["shaktiman","naagraj","doga"];
+console.log(2>1);
+console.log(2>=1);
+console.log(2==1);
 
-let myobj={
-    name:"jatin",
-     age:22
-}
+console.log("2">1);
+console.log("02">1);
 
-function hello(){
-    console.log("hello");  
-}
-console.log(typeof big_no);
+console.log(null>0);
+console.log(null==0);
+console.log(null>=0);
+
+console.log("2"==2);
+console.log("2"===2);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
