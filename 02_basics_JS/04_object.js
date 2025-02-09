@@ -31,3 +31,25 @@ const ob2=Object .assign({},ob,ob1)
 //const ob2={...ob,...ob1}
 
 console.log(ob2);
+
+const arr=[{id:1,roll:1},
+    {id:2,roll:3},
+    {id:3,roll:3}
+]
+console.log(arr);
+console.log("hello ");
+
+console.log(Object.keys(obj2));
+
+const course = {
+    coursename : "javascript",
+    courseprice : "9999",
+    courseinstructor : "jatin"
+}
+console.log(course.courseinstructor);
+//if i want to write multiple time 
+
+const {courseinstructor}=course
+console.log(courseinstructor);
+
+
