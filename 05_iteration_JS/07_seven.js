@@ -4,4 +4,4 @@ const newnum= num.map( (i) => i+10)
 console.log(newnum);
 
 //chaining  (using more than a method like map filter foreach)
-
+//s
